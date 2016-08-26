@@ -75,7 +75,12 @@ graceful degradation - made full functional and then made fallbacks
   * How many resources will a browser download from a given domain at a time?
   depends on browser
   2 - 8
+
 * Name 3 ways to decrease page load. (perceived or actual load time)
+  1. Put JS scripts at the bottom so that the compilation doesn't slow down the display. (Actual)
+  2. Use external source files - if they're cached, it'd speed up the page load. (Actual)
+  3. Include small visual clips that're fun to watch. This will distract users from noticing the page loading time. (Perceived)
+
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
   * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
   * Conform to the conventions (stay consistent)
